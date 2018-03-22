@@ -1,5 +1,32 @@
 ## Changelog
 
+### 1.4.12
+
+*2017-11-30*
+
+- Fixed input height error of Select when `size` is not assigned, #8460
+
+### 1.4.11
+
+*2017-11-24*
+
+- Now Pagination's jumper will correct invalid page inputs, #8408 (by @decadef20)
+- Fixed high CPU consumption caused by hidden Table, #8484
+
+### 1.4.10
+
+*2017-11-14*
+
+- Fixed missing Tooltip registration in Menu, #7996
+- Fixed console error of `clientHeight` when `disabled` of Select dynamically updates, #8018 (by @wubaiqing)
+
+### 1.4.9
+
+*2017-11-01*
+
+- Fixed Form validating not triggered correctly in some conditions, #7744
+- Fixed range selection of DatePicker not working in Chromium 53-57 browsers, #7927
+
 ### 1.4.8
 
 *2017-10-24*
